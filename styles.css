@@ -183,7 +183,6 @@ a:focus-visible {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  font: inherit;
   padding: 0.58rem 1rem;
   border-radius: 10px;
   border: 1px solid transparent;
@@ -213,18 +212,6 @@ a:focus-visible {
 .btn-ghost {
   border-color: var(--line);
   background: #fff;
-}
-
-.is-disabled,
-a[aria-disabled="true"] {
-  pointer-events: none;
-  cursor: not-allowed;
-  opacity: 0.55;
-}
-
-.hero-meta [aria-disabled="true"] {
-  color: var(--text-soft);
-  opacity: 0.75;
 }
 
 .hero-meta {
